@@ -1,7 +1,14 @@
-.main-banner{
-    background-image: url('../assets//images/banner.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 400px;
+.main-banner-img{ 
+    max-height: 350px;
+    opacity: 0.4; 
+}
+
+.main-banner-section{
+    position: absolute;
+    top: 25%;
+    left: 12%;
+}
+
+.main-banner-overlay h1{
+    font-size: 48px;
 }

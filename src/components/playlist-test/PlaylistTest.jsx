@@ -49,7 +49,7 @@ export default function PlaylistTest({ token }) {
     }
 
     return (        
-        <section>
+        <section style={{margin: 'auto'}}>
             <h3>Playlists</h3>
             <button value='80sClassics' className='btn btn-warning playlist-button' onClick={() => getPlaylistSongs('80sClassics')}>80s Classics</button>
             <button value='90sIndieRock' className='btn btn-secondary playlist-button' onClick={() => getPlaylistSongs('90sIndieRock')}>90s Indie Rock</button>

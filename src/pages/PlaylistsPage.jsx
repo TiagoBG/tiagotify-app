@@ -4,7 +4,9 @@ import PlaylistTest from '../components/playlist-test/PlaylistTest';
 const PlaylistsPage = ({token}) => {
     return (
         <section>
-        <PlaylistTest token={token} className=''/>            
+        {
+            token ? <PlaylistTest token={token}/> : <h3>Not information provided</h3>
+        }          
         </section>
     );
 }
