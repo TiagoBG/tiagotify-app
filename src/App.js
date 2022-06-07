@@ -16,7 +16,7 @@ function App() {
   return (
       <Router>
       <Header/>
-        <Routes>
+        <Routes style={{background: '#ccd5ae'}}>
           <Route exact path='/' element={<DashboardPage token={getToken()}/>}/>
           <Route path='/playlists' element ={<PlaylistsPage token={getToken()}/>}/>
           <Route path='/artists' element = {<ArtistsPage token={getToken()}/>}/>
