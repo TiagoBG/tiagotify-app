@@ -28,7 +28,6 @@ const ArtistsPage = ({ token }) => {
 
     return (
         <section>
-            ARTISTS
             {
                 token ?
                     <div className="artist-section col-7">
